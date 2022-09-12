@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="item_device_height">58dp</dimen> <!-- item_device_icon_diameter + item_device_icon_margin -->
+    <dimen name="item_device_padding">9dp</dimen>
+    <dimen name="item_device_icon_diameter">40dp</dimen>
+    <dimen name="item_device_icon_margin">18dp</dimen> <!-- item_device_padding * 2 -->
+    <dimen name="item_device_text_padding">12dp</dimen>
+
+</resources>

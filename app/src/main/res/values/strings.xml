@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">btctrl</string>
+    <string name="service_description">Android HID Device</string>
+
+    <string name="action_toggle_keyboard">Toggle keyboard</string>
+    <string name="action_toggle_fullscreen">Toggle fullscreen</string>
+    <string name="action_mode">Input mode</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+
+    <string name="text_no_bluetooth">Bluetooth needs to be enabled for this app to work.</string>
+    <string name="text_no_permission">This app needs your permission to connect to bluetooth devices.</string>
+    <string name="label_select_device">Select a device</string>
+    <string name="label_bonded_devices">Bonded devices</string>
+    <string name="label_discovered_devices">Discovered devices</string>
+
+    <string name="button_enable_bluetooth">Enable</string>
+    <string name="button_give_permission">Allow</string>
+    <string name="button_start_discover">Pair a new device</string>
+    <string name="button_stop_discover">Stop discovering</string>
+
+    <!-- TODO: remove -->
+    <string name="status_active">Active</string>
+    <string name="status_test">Test</string>
+    <string name="status_off">Off</string>
+    <string name="status_turning_on">Turning on</string>
+    <string name="status_on">On</string>
+    <string name="status_turning_off">Turning off</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="@dimen/item_device_icon_diameter"
+        android:layout_height="@dimen/item_device_icon_diameter"
+        android:layout_marginStart="@dimen/item_device_icon_margin"
+        android:layout_marginTop="@dimen/item_device_padding"
+        android:src="@drawable/device_icon_circle"
+        style="@style/Theme.btctrl.DeviceIconBackground"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_device_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/device_icon"
+            android:layout_width="@dimen/item_device_icon_diameter"
+            android:layout_height="@dimen/item_device_icon_diameter"
+            android:layout_marginStart="@dimen/item_device_icon_margin"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="@dimen/item_device_padding"
+            android:scaleX="0.65"
+            android:scaleY="0.65"
+            android:src="@drawable/ic_bluetooth"
+            style="@style/Theme.btctrl.DeviceIcon"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/item_device_text_padding"
+            android:paddingEnd="0dp">
+
+            <TextView
+                android:id="@+id/device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceTitleLarge" />
+
+            <TextView
+                android:id="@+id/device_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

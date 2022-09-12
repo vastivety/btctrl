@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="vastivety.btctrl.ControlActivity">
+
+    <!-- TODO: make keyboard_show icon -->
+    <item
+        android:id="@+id/action_toggle_keyboard"
+        android:orderInCategory="0"
+        android:title="@string/action_toggle_keyboard"
+        android:icon="@drawable/ic_keyboard_hide"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_toggle_fullscreen"
+        android:orderInCategory="1"
+        android:title="@string/action_toggle_fullscreen"
+        android:icon="@drawable/ic_fullscreen"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_mode"
+        android:orderInCategory="10"
+        android:title="@string/action_mode"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_disconnect"
+        android:orderInCategory="11"
+        android:title="@string/action_disconnect"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="101"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="102"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+</menu>

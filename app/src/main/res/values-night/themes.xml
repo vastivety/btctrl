@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.btctrl" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.btctrl.DeviceIcon" parent="Base.Theme.btctrl">
+        <item name="tint">?attr/colorTertiaryContainer</item>
+    </style>
+    <style name="Theme.btctrl.DeviceIconBackground" parent="Base.Theme.btctrl">
+        <item name="tint">?attr/colorTertiary</item>
+    </style>
+
+</resources>
