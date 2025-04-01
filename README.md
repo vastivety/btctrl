@@ -1,3 +1,6 @@
+> [!WARNING]
+> Moved to Codeberg: https://codeberg.org/vastivety/btctrl.
+
 # btctrl
 
 This app lets your Android phone act as a Bluetooth(R) mouse and keyboard.
